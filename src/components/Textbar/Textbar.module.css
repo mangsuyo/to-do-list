@@ -1,0 +1,26 @@
+.textBar {
+  text-align: center;
+}
+.textBar input {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(215, 79, 79);
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.1s;
+}
+
+.activeBar input {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(215, 79, 79);
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.6s ease-out;
+  color: white;
+  font-weight: 800;
+}

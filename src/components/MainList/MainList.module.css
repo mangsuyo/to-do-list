@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.list__content {
+  display: flex;
+  align-items: center;
+}
+.list__text {
+  margin-left: 1rem;
+}
+.list__checkText {
+  margin-left: 1rem;
+  text-decoration: line-through;
+}

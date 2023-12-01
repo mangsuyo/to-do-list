@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.default {
+  display: none;
+}
+.main {
+  margin: 4rem auto;
+  padding: 1rem 2rem;
+  position: relative;
+  height: 30rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.lists {
+  display: flex;
+  margin-top: 3rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.states {
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+  display: flex;
+}
+.state {
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  transition: 0.5s;
+  border-bottom: 1px solid gray;
+  opacity: 0.7;
+}
+.active {
+  opacity: 1;
+  transition: 0.5s;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  border-bottom: 1px solid orange;
+  transform: translateY(-1rem);
+}
